@@ -1,0 +1,28 @@
+@import './../../../../../assets/styles/prices.scss';
+
+.container {
+    margin-top: 25px;
+}
+
+.mini {
+    margin-bottom: 10px;
+}
+
+// Responsive
+
+@media(max-width: 600px) {
+    #screens-section {
+        display: none;
+    }
+}
+.main-img, .more-games{
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    height: 100%;
+    width: 100%
+}
+// More games - Random Items
+.more-games {
+    max-height: 105px;
+}
